@@ -5,10 +5,6 @@ labels: [bug]
 assignees:
   - OppositeWolf770
 body:
-  - type: markdown
-    attributes:
-      value: "## Thank you for taking the time to report this bug!"
-
   - type: textarea
     id: bug-description
     attributes:
@@ -23,7 +19,7 @@ body:
     attributes:
       label: "To Reproduce"
       description: "Steps to reproduce the behavior:"
-      value: |
+      placeholder: |
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'
