@@ -5,6 +5,10 @@ labels: [bug]
 assignees:
   - OppositeWolf770
 body:
+  - type: markdown
+    attributes:
+      value: "## Thank you for taking the time to report this bug!"
+
   - type: textarea
     id: bug-description
     attributes:
@@ -45,12 +49,17 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: "---"
+
   - type: input
     id: os
     attributes:
       label: "OS"
       description: "What operating system are you using?"
       placeholder: "e.g. Windows 11"
+      render: small
     validations:
       required: true
 
@@ -60,6 +69,7 @@ body:
       label: "Lovely Version"
       description: "What version of Lovely are you using?"
       placeholder: "e.g. 0.7.1"
+      render: small
     validations:
       required: true
 
@@ -69,6 +79,7 @@ body:
       label: "Steamodded Version"
       description: "What version of Steamodded are you using?"
       placeholder: "e.g. 1.0.0~ALPHA-1420a"
+      render: small
     validations:
       required: true
 
@@ -78,6 +89,7 @@ body:
       label: "Paperback Version"
       description: "What version of Paperback are you using?"
       placeholder: "e.g. 0.6.0-pre2"
+      render: small
     validations:
       required: true
 
