@@ -84,11 +84,11 @@ body:
       placeholder: "e.g. 0.6.0-pre2"
     validations:
       required: true
-
+      
   - type: markdown
-  attributes:
-    value: "---"
-
+    attributes:
+      value: "---"
+      
   - type: textarea
     id: additional-context
     attributes:
