@@ -48,9 +48,10 @@ body:
   - type: markdown
     attributes:
       value: "---"
+
   - type: textarea
     attributes:
-      label: ""
+      label: " "
       value: "---"
 
   - type: input
