@@ -51,8 +51,7 @@ body:
 
   - type: textarea
     attributes:
-      label: " "
-      value: "---"
+      label: "---"
 
   - type: input
     id: os
