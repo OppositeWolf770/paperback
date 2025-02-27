@@ -49,18 +49,45 @@ body:
     attributes:
       value: "---"
 
-  - type: textarea
-    id: versions
+  - type: input
+    id: os
     attributes:
-      label: "Version Information"
-      description: "Please complete the following information."
-      value: |
-        - OS: [e.g. Windows 11]
-        - Lovely Version: [e.g. 0.7.1
-        - Steamodded Version [e.g. 1.0.0~ALPHA-1420a]
-        - Paperback Version [e.g. 0.6.0-pre2]
+      label: "OS"
+      description: "What operating system are you using?"
+      placeholder: "e.g. Windows 11"
     validations:
       required: true
+
+  - type: input
+    id: lovely-version
+    attributes:
+      label: "Lovely Version"
+      description: "What version of Lovely are you using?"
+      placeholder: "e.g. 0.7.1"
+    validations:
+      required: true
+
+  - type: input
+    id: steamodded-version
+    attributes:
+      label: "Steamodded Version"
+      description: "What version of Steamodded are you using?"
+      placeholder: "e.g. 1.0.0~ALPHA-1420a"
+    validations:
+      required: true
+      
+  - type: input
+    id: paperback-version
+    attributes:
+      label: "Paperback Version"
+      description: "What version of Paperback are you using?"
+      placeholder: "e.g. 0.6.0-pre2"
+    validations:
+      required: true
+
+  - type: markdown
+  attributes:
+    value: "---"
 
   - type: textarea
     id: additional-context
