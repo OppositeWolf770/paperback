@@ -49,10 +49,6 @@ body:
     attributes:
       value: "---"
 
-  - type: textarea
-    attributes:
-      label: "---"
-
   - type: input
     id: os
     attributes:
